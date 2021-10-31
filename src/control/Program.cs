@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace controller
+namespace control
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Work in Progress");
         }
     }
 }
