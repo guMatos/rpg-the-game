@@ -9,7 +9,7 @@ namespace domain.player
         {
             Name = "Zeca";
             Description = "Jogador";
-            Inventory = new List<IItem>();
+            Inventory = new List<Item>();
         }
     }
 }

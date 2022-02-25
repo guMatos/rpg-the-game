@@ -2,13 +2,8 @@ using System.Collections.Generic;
 
 namespace domain.common
 {
-    public abstract class Character : IBaseEntity
+    public abstract class Character : BaseEntity
     {
-        public Character() { }
-
-        public string Name { get; set; }
-        public string Description { get; set; }
-
-        public IEnumerable<IItem> Inventory { get; set; }
+        public IEnumerable<Item> Inventory { get; set; }
     }
 }

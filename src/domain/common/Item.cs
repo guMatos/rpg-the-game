@@ -1,6 +1,6 @@
 namespace domain.common
 {
-    public interface IItem : IBaseEntity
+    public class Item : BaseEntity
     {
         ItemType Type { get; }
     }
